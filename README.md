@@ -40,15 +40,3 @@ After the testing has been completed, unparsed results and automatically parsed 
 ### Project Clean
 1. bash ./cleaner.sh
 
-
-## Acknowledgements
-
-This project depends on the following third-party software and libraries:
-
-1. **[Liboqs](https://github.com/open-quantum-safe/liboqs)** – Used to provide standalone implementations of post-quantum key encapsulation mechanisms (KEMs) and digital signature algorithms for computational performance testing.
-
-2. **[OQS-Provider](https://github.com/open-quantum-safe/oqs-provider)** – Used to integrate post-quantum algorithms from `Liboqs` into OpenSSL via the provider interface, enabling TLS-based performance testing. The provider is built locally and dynamically linked into OpenSSL. It is licensed under the MIT License.
-
-3. **[OpenSSL](https://github.com/openssl/openssl)** – Used as the core cryptographic library for TLS testing and benchmarking.  OpenSSL is licensed under the Apache License 2.0.
-
-4. **[PQC-LEO](https://github.com/crt26/PQC-LEO.git)** - PQC-LEO provides an automated and comprehensive evaluation framework for benchmarking Post-Quantum Cryptography (PQC) algorithms. It is designed for researchers and developers looking to evaluate the feasibility of integrating PQC into their environments. The framework streamlines the setup and testing of PQC implementations, enabling the collection of computational and networking performance metrics across x86 and ARM systems through a suite of dedicated automation scripts. PQC-LEO is licensed under the MIT License
