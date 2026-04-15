@@ -1,0 +1,8 @@
+version: 3.5.0
+built on: Fri Apr  3 07:40:14 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x6efd
+                               keygen    encaps    decaps keygens/s  encaps/s  decaps/s
+             X25519MLKEM768 0.000079s 0.000106s 0.000088s   12699.1    9447.0   11352.1
+              X448MLKEM1024 0.000310s 0.000458s 0.000237s    3228.7    2181.8    4222.1

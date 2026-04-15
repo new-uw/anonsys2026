@@ -1,0 +1,9 @@
+version: 3.5.0
+built on: Fri Apr  3 07:40:14 2026 UTC
+options: bn(64,64)
+compiler: gcc -fPIC -pthread -Wa,--noexecstack -Wall -O3 -DOPENSSL_USE_NODELETE -DOPENSSL_PIC -DOPENSSL_BUILDING_OPENSSL -DNDEBUG
+CPUINFO: OPENSSL_armcap=0x6efd
+                               keygen    encaps    decaps keygens/s  encaps/s  decaps/s
+                     bikel1 0.000751s 0.000120s 0.001718s    1332.0    8306.7     582.1
+                     bikel3 0.002322s 0.000327s 0.005136s     430.6    3060.8     194.7
+                     bikel5 0.005802s 0.000813s 0.012456s     172.3    1230.6      80.3

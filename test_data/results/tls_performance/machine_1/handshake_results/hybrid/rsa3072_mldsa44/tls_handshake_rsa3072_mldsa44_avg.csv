@@ -1,0 +1,5 @@
+Signing Algorithm,KEM Algorithm,Reused Session ID,Connections in User Time,User Time (s),Connections Per User Second,Connections in Real Time,Real Time (s)
+rsa3072_mldsa44,p256_bikel1,,284.0,5.09,55.8,284.0,11.0
+rsa3072_mldsa44,p256_bikel1,*,246.0,5.55,44.32,246.0,11.0
+rsa3072_mldsa44,x25519_bikel1,,360.0,7.85,45.86,360.0,11.0
+rsa3072_mldsa44,x25519_bikel1,*,343.0,8.05,42.61,343.0,11.0

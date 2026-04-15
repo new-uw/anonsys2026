@@ -1,0 +1,3 @@
+Ciphersuite,Classic Algorithm,Reused Session ID,Connections in User Time,User Time (s),Connections Per User Second,Connections in Real Time,Real Time (s)
+TLS_AES_128_GCM_SHA256,RSA_2048,,1992.0,4.17,477.7,1992.0,11.0
+TLS_AES_128_GCM_SHA256,RSA_2048,*,2237.0,3.94,567.77,2237.0,11.0

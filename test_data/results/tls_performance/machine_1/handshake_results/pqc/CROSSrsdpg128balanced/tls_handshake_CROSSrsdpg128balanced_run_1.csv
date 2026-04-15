@@ -1,0 +1,7 @@
+Signing Algorithm,KEM Algorithm,Reused Session ID,Connections in User Time,User Time (s),Connections Per User Second,Connections in Real Time,Real Time (s)
+CROSSrsdpg128balanced,bikel1,,877,6.64,132.08,877,11
+CROSSrsdpg128balanced,bikel1,*,855,7.38,115.85,855,11
+CROSSrsdpg128balanced,bikel3,,350,6.56,53.35,350,11
+CROSSrsdpg128balanced,bikel3,*,404,7.15,56.5,404,11
+CROSSrsdpg128balanced,bikel5,,263,6.98,37.68,263,11
+CROSSrsdpg128balanced,bikel5,*,283,7.43,38.09,283,11
