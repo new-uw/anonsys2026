@@ -4,7 +4,7 @@
 Platform is the Orion O6, supports the Armv9-A SVE2 and its cryptographic extensionsm and the SVE2 vector length is 128 bits. Evaluation is built on liboqs 0.15.0, oqs-provider 0.10.0, and OpenSSL 3.5.0.
 
 ## PQC Test
-1. cd aource_lib
+1. cd source_lib/liboqs_source
 2. mkdir build && cd build
 3. CC=clang CXX=clang++ ASM=clang cmake -GNinja .. \
   -DOQS_USE_OPENSSL=ON \
