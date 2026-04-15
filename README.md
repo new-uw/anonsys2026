@@ -1,9 +1,7 @@
 # ARMOR <!-- omit from toc -->
 
 ## Supported Hardware and Software
-Our evaluation platform is the Orion O6, the first open-source Armv9 development board, which features a 12-core heterogeneous CPU (four Cortex-A720 at 2.8 GHz, four Cortex-A720 at 2.4 GHz, and four Cortex-A520 at 1.8 GHz) and a shared 12 MB L3 cache. The processor natively supports the Armv9-A SVE2 and its cryptographic extensions, including \texttt{sve2}, \texttt{sveaes}, \texttt{svepmull}, and \texttt{svebitperm}. On Orion O6, the implemented SVE2 vector length is 128 bits, although SVE2 itself follows a VLA programming model. The software environment is a 64-bit Linux operating system. All C and assembly code is compiled using Clang/LLVM version 14.0.6.
-
-Evaluation is built on liboqs 0.15.0, oqs-provider 0.10.0, and OpenSSL 3.5.0.
+Platform is the Orion O6, supports the Armv9-A SVE2 and its cryptographic extensionsm and the SVE2 vector length is 128 bits. Evaluation is built on liboqs 0.15.0, oqs-provider 0.10.0, and OpenSSL 3.5.0.
 
 ## PQC Test
 1. cd aource_lib
